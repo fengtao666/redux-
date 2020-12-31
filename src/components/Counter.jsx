@@ -3,9 +3,6 @@ import { connect } from 'react-redux';
 import { counterCreator } from '../actions';
 
 class Counter extends Component {
-    constructor(props) {
-        super(props);
-    }
 
     inc = () => {
         this.props.inc()

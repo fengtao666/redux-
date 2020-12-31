@@ -4,7 +4,7 @@ const initState = {
 
 export default (state = initState, action) => {
     // action = JSON.parse(JSON.stringify(action));
-    console.log('initState', initState)
+    // console.log('initState', initState)
     const countAdd = state.count + 1;
     const countDel = state.count - 1;
     switch (action.type) {
